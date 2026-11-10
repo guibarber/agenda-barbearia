@@ -68,7 +68,7 @@ with aba_admin:
     st.subheader("Área Restrita do Administrador")
     senha = st.text_input("Digite a senha master para acessar:", type="password")
     
-    if senha == "1234":
+    if senha == "2524":
         st.success("Acesso liberado!")
         df_agendas = st.session_state.agendamentos
         
