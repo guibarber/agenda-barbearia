@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Configuração da página
-st.set_page_config(page_title="Barbearia do Guilherme", page_icon="💈", layout="centered")
+st.set_page_config(page_title=" Barber Gui ", page_icon="💈", layout="centered")
 
 # Inicialização do banco de dados na memória do app
 if "agendamentos" not in st.session_state:
@@ -19,7 +19,7 @@ SERVICOS = {
 HORARIOS = [f"{h:02d}:00" for h in range(9, 19)]
 
 # Interface do Usuário
-st.title("💈 Barbearia do Guilherme")
+st.title("💈 agenda do Gui ")
 st.write("Agende seu horário com total facilidade e rapidez!")
 
 aba_cliente, aba_admin = st.tabs(["Agendar Horário", "Painel do Guilherme"])
